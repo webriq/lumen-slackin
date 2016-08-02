@@ -25,3 +25,162 @@
     opacity: 0.65;
     margin-top: 15%;
 }
+
+/* Customer Form Site wizard */
+.wizard.formalize input[name="site_name"] {
+  border: 1px solid #e5e6e7 !important;
+  padding-left: 10px;
+  line-height: 24px;
+  height: 48px; }
+
+.formalize.wizard .form-group .radio-info label {
+  color: #757575;
+  font-weight: 600; }
+
+.formalize.wizard .form-group:hover .radio-info label {
+  color: #757575; }
+
+.formalize.wizard .page-template .btn {
+  padding-right: 25px;
+  padding-left: 25px; }
+
+.formalize.wizard .page-template .btn:hover {
+  background: #757575;
+  color: #fff;
+  border-color: #757575; }
+
+.formalize.wizard .page-template {
+  background: #f5f5f5; }
+
+.formalize.wizard .select-package {
+  margin-right: auto;
+  margin-left: auto; }
+
+.formalize.wizard .select-package .radio-inline:hover {
+  border-color: #00bfa5 !important; }
+
+.formalize.wizard .select-package .radio-inline {
+  background: #f5f5f5;
+  display: inline-block;
+  width: 49%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  margin: 0; }
+
+.formalize.wizard .select-package .radio-inline label {
+  display: block;
+  text-align: center; }
+
+.formalize.wizard .select-package .radio-inline:hover label,
+.formalize.wizard .select-package .radio-inline.selected label {
+  color: #00bfa5; }
+
+.formalize.wizard .select-package .radio-inline label .material-icons {
+  font-size: 34px;
+  background: #757575;
+  color: #fff;
+  border-color: #00E676;
+  border-radius: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; }
+
+.formalize.wizard .select-package .radio-inline:hover label .material-icons,
+.formalize.wizard .select-package .radio-inline.selected label .material-icons {
+  background: #01bfa5;
+  color: #fff; }
+
+.formalize.wizard .select-package .radio-inline.selected:hover {
+  border-color: #00bfa5; }
+
+.formalize.wizard .select-package .radio-inline.selected:hover label {
+  color: #00bfa5; }
+
+.formalize.wizard .select-package .radio-inline.selected:hover label .material-icons {
+  background: #00bfa5; }
+
+.formalize.wizard .select-package .radio label::before,
+.formalize.wizard .select-package .radio label::after {
+  display: none; }
+
+.formalize.wizard .terms label,
+.formalize.auth .terms label,
+.formalize.wizard .terms a,
+.formalize.auth .terms a {
+  color: #757575 !important; }
+
+.formalize .checkbox label::after,
+.formalize .checkbox label::before {
+  top: 1px; }
+
+.formalize.wizard .terms label.error {
+  color: #ED5565 !important; }
+
+.formalize.wizard .terms.checkbox label.error::before,
+.formalize.wizard .terms.checkbox label.error::after {
+  display: none !important; }
+
+.formalize.wizard input[name="site_name"] {
+  width: 85%;
+  float: left; }
+
+.formalize.wizard .limitter {
+  font-size: 18px;
+  float: right;
+  border: 1px solid #e5e6e7 !important;
+  padding: 10px;
+  line-height: 24px;
+  height: 48px;
+  width: 15%;
+  border-left: 0px !important;
+  background: #f6f6f6;
+  text-align: center; }
+
+.formalize.wizard .input-group-addon {
+  background: transparent; }
+
+.formalize.wizard .wrappin {
+  background: #f5f5f5;
+  padding: 25px 25px;
+  margin-bottom: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.formalize.wizard .wrappin label {
+  color: #757575; }
+
+.formalize  {
+    border: 1px solid red !important;
+}
+.formalize .form-control {
+  border: none !important;
+  padding-left: 0px;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600;
+  margin-bottom: 15px; }
+
+.formalize .form-group:hover label,
+.formalize .form-group:active label,
+.formalize .form-group:focus label {
+  color: #2196F3; }
+
+.formalize .form-control:hover,
+.formalize .form-control:active,
+.formalize .form-control:focus {
+  border-color: #03a9f4;
+  color: #000; }
+
+.formalize label {
+  color: #cfcfcf;
+  font-weight: 400;
+  font-size: 14px; }
+
+.formalize .modal-footer {
+  border-top: none !important;
+  padding-right: 0px !important; }
