@@ -12,6 +12,7 @@
     @endif
 
     <link rel="stylesheet" href="{{url(elixir('css/all.css'))}}"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script type="text/javascript" src="{{url(elixir('js/all.js'))}}"></script>
 
