@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>@if($team['name']){{$team['name']}}@else{{'Lumen Slackin'}}@endif</title>
+    <title>@if($team['name']){{$team['name']}} Slack Invitation@else{{'Lumen Slackin'}}@endif</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,7 +36,9 @@
         @yield('content')
     </div>
     <div id="footer">
-        {!!trans('messages.copyright')!!}
+        <div class="container">
+            {!!trans('messages.copyright')!!}
+        </div>
     </div>
 </body>
 </html>

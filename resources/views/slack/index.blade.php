@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="form-group">
-                    <input type="submit" class="form-control input-sm btn btn-default" value="{{trans('slackin.submit')}}"/>
+                    <input type="submit" class="form-control input-sm btn btn-info" value="{{trans('slackin.submit')}}"/>
                 </div>
             </form>
         </div>
