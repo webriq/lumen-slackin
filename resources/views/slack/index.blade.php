@@ -5,16 +5,16 @@
     <div class="createBox">
         <div class="ibox-content">
             <div class="login-header">
-                <h3><i class="material-icons">public</i> &nbsp; Send Invitations</h3>
+                <h3><i class="material-icons">public</i> &nbsp; Join WebriQ on Slack</h3>
             </div>
             <div class="login-box-body">
             <br>
             <br>
-                {{-- <div id="logo">
+                <div id="logo">
                     <a href="https://{{$team['domain']}}.slack.com">
                         <img src="{{$team['icon']['image_132']}}" />
                     </a>
-                </div> --}}
+                </div>
 
                 <div id="message">
                     <h4 class="login-box-msg"> {!! trans('slackin.join', ['team' => $team['name'], 'domain' => $team['domain']]) !!}</h4>
